@@ -24,7 +24,7 @@ count = 0
 if not os.path.exists('faces'):
     os.makedirs('faces')
 
-# Collect 100 samples of your face from webcam input
+# Collect 80 samples of your face from webcam input
 while True:
     ret, frame = cap.read()
     if face_extractor(frame) is not None:
